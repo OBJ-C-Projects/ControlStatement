@@ -10,6 +10,14 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    int power = 200;
+    
+    if (power > 150) {
+        printf("Power is enough\n");
+    }else{
+        printf("Power is not enough\n");
+    }
+    
+    
     return 0;
 }
